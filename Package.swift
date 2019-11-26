@@ -5,6 +5,12 @@ import PackageDescription
 
 let package = Package(
     name: "Sentry",
+    platforms: [
+        .iOS(.v8_0),
+        .macOS(.v10_10),
+        .tvOS(.v9_0),
+        .watchOS(.v2_0),
+    ],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
