@@ -27,8 +27,5 @@ let package = Package(
         .target(
             name: "Sentry",
             dependencies: []),
-        .testTarget(
-            name: "SentryTests",
-            dependencies: ["Sentry"]),
     ]
 )
